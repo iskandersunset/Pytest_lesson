@@ -1,14 +1,6 @@
-import pytest
+def test_sending_mail_1(set_up):
+    print('Письмо 1 отправлено')
 
 
-@pytest.fixture()
-def set_up():
-    print('Вход в систему выполнен')
-
-
-def test_sending_mail_1():
-    print('Письмо отправлено')
-
-
-def test_sending_mail_2():
-    print('Письмо отправлено')
+def test_sending_mail_2(set_up):
+    print('Письмо 2 отправлено')
