@@ -2,6 +2,6 @@ a = int(input())
 print(a)
 
 if a > 10:
-    print('Больше 10')
+    print('Больше 11')
 else:
-    print('Меньше 10')
+    print('Меньше 11')
